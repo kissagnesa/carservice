@@ -13,7 +13,7 @@ a{
 
 .banner{
     background:#302b2b;
-	min-height:25px;
+	min-height:30px;
 	display:flex;
 	justify-content:space-around;
 	align-items:center;
@@ -21,7 +21,8 @@ a{
 }
 
 table{
-    width: 50%;
+    width: 75%;
+    margin:auto;
 }
 
 table th{
@@ -34,6 +35,15 @@ table th{
 table td{
     padding:10px;
 	border:1px solid #CCCCCC;
+    text-align: center;
+}
+
+.search_form{
+    min-height: 30px;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display:flexbox;
 }
 
 

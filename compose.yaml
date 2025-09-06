@@ -1,0 +1,6 @@
+services:
+  homdashboard:
+    image: carservice
+    build:
+      context: .
+      dockerfile: ./Dockerfile
